@@ -1,5 +1,5 @@
-FROM aallam/oracle-java
-MAINTAINER aallam
+FROM servermatik/tomcat-mysql
+MAINTAINER servermatik
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV TOMCAT_MAJOR_VERSION=8
